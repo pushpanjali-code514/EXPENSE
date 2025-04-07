@@ -5,9 +5,9 @@ import { featuresData, howItWorksData, statsData, testimonialsData } from "@/dat
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="mt-40">
+    <div className="bg-white">
       <HeroSection />
 
       <section className="py-20 bg-green-400">
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section id="features" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             Everything you need to manage your finances.
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section id="testimonials" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             What Our Users Say
@@ -75,7 +75,7 @@ export default function Home() {
                   <div className="flex items-center mb-4">
                     <Image
                     src={testimonial.image}
-                    arc={testimonial.name}
+                    alt={testimonial.name}
                     width={40}
                     height={40}
                     className="rounded-full"
@@ -112,3 +112,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
