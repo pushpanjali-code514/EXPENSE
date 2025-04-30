@@ -10,15 +10,15 @@ const Home = () => {
     <div className="bg-white">
       <HeroSection />
 
-      <section className="py-20 bg-green-400">
+      <section className="py-20 bg-green-300">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {statsData.map((statsData, index)=>(
               <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">
+                <div className="text-4xl font-bold text-green-950 mb-2">
                   {statsData.value}
                 </div>
-                <div className="text-gray-600">
+                <div className="text-black">
                   {statsData.label}
                 </div>
               </div>
@@ -52,11 +52,11 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {howItWorksData.map((step, index)=>(
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <p className="text-gray-800">{step.description}</p>
               </div>     
             ))}
           </div>

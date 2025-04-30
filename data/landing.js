@@ -10,11 +10,11 @@ import {
   // Stats Data
   export const statsData = [
     {
-      value: "50K+",
-      label: "Active Users",
+      value: "75%",
+      label: "Budgets Optimized",
     },
     {
-      value: "$2B+",
+      value: "₹2B+",
       label: "Transactions Tracked",
     },
     {
@@ -66,19 +66,19 @@ import {
   // How It Works Data
   export const howItWorksData = [
     {
-      icon: <CreditCard className="h-8 w-8 text-blue-600" />,
+      icon: <CreditCard className="h-9 w-9 text-green-600" />,
       title: "1. Create Your Account",
       description:
         "Get started in minutes with our simple and secure sign-up process",
     },
     {
-      icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
+      icon: <BarChart3 className="h-8 w-8 text-green-600" />,
       title: "2. Track Your Spending",
       description:
         "Automatically categorize and track your transactions in real-time",
     },
     {
-      icon: <PieChart className="h-8 w-8 text-blue-600" />,
+      icon: <PieChart className="h-8 w-8 text-green-600" />,
       title: "3. Get Insights",
       description:
         "Receive AI-powered insights and recommendations to optimize your finances",
@@ -90,23 +90,23 @@ import {
     {
       name: "Pushpanjali Bhagat",
       role: "Influencer",
-      image: "https://randomuser.me/api/portraits/women/75.jpg",
+      image: "/converted_image.png",
       quote:
         "AI Expense Tracker has transformed my business finances! 🚀 Its smart insights revealed cost-saving opportunities I never imagined. 💰✨",
     },
     {
       name: "Vasundhra Thakur",
       role: "Freelancer",
-      image: "https://randomuser.me/api/portraits/men/75.jpg",
+      image: "/75.jpg",
       quote:
-        "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+        "The receipt scanning feature saves me hours each month 🕒. Now I can focus on my work instead of manual data entry 🧾 and expense tracking 📋.",
     },
     {
       name: "Deeksha Dewangan",
       role: "Financial Advisor",
-      image: "https://randomuser.me/api/portraits/women/74.jpg",
+      image: "/DD.png",
       quote:
-        "I recommend AI Expense Tracker  to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+        "I recommend AI Expense Tracker to anyone seeking smart, efficient budgeting 💡, helpful analytics 📊, and a user-friendly design 🎯.",
     },
     
   ];
