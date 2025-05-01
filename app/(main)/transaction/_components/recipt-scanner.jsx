@@ -60,7 +60,7 @@ export function ReceiptScanner ({ onScanComplete }) {
           </>
         ) : (
           <>
-            <Camera className="mr-1" />
+            <Camera className="mr-2" />
             <span>Scan Receipt with AI</span>
           </>
         )}

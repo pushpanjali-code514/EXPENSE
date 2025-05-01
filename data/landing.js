@@ -97,7 +97,7 @@ import {
     {
       name: "Vasundhra Thakur",
       role: "Freelancer",
-      image: "/75.jpg",
+      image: "/logo vasu.jpg",
       quote:
         "The receipt scanning feature saves me hours each month 🕒. Now I can focus on my work instead of manual data entry 🧾 and expense tracking 📋.",
     },
